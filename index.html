@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Dashboard</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h3 class="display-4">Weather Dashboard</h3>      
+    </header>
+    
+    <div class="container">
+
+      <div class ="row topRow" style="background-color: deeppink;">
+        <input type="text" id="inputBox" placeholder ="your API key goes here..."><span><button type="submit"><i class="fa fa-key" id="apiKeyBttn"></i></button></span>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4" style="background-color: blueviolet;">
+          <div class="row leftPanel">
+            <h4>Search for City</h4>
+            <input type="text" placeholder="Search.." id="searchBox">
+            <button type="submit"><i class="fa fa-search" id="searchBttn"></i></button>
+          </div>
+          <div class="row">
+
+          </div>
+        </div>
+        <div class="col-md-8" style="background-color: coral;">
+          <div class="row" style="background-color: crimson;">
+            <h4>City</h4>
+          </div>
+          <div class="row" style="background-color: darkolivegreen;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="myScript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">
+  </body>
+</html>
