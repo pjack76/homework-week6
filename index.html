@@ -31,7 +31,7 @@
 
       <div class ="row topRow" style="background-color: deeppink;">
         <input type="text" id="inputBox" placeholder ="your API key goes here...">
-        <button type="submit"><i class="fa fa-key" id="apiKeyBttn"></i></button>
+        <button><i class="fa fa-key" id="apiKeyBttn"></i></button>
       </div>
 
       <div class="row">
@@ -41,19 +41,17 @@
             <input type="text" placeholder="Search.." id="searchBox">
             <button><i class="fa fa-search" id="searchBttn"></i></button>
           </div>
-          <div class="row">
-
-          </div>
+          <div class="row"></div>
         </div>
-        <div class="col-md-8" style="background-color: coral;">
-          <div class="row infoDisplay" style="background-color: crimson;">
-            <div class ="row" id="city"></div>
-            <div class="row" id="temp"></div>
-            <div class="row" id="humidity"></div>
-            <div class="row" id="uv-index"></div>
+
+        <div class="col-md-8">
+          <div class="row infoDisplayParent">
+            <div class ="row infoDisplay" id="city"></div>
+            <div class="row infoDisplay" id="temp"></div>
+            <div class="row infoDisplay" id="humidity"></div>
+            <div class="row infoDisplay" id="uv-index"></div>
           </div>
-          <div class="row" style="background-color: darkolivegreen;">
-          </div>
+          <div class="row"></div>
         </div>
       </div>
     </div>
