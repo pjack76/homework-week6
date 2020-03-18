@@ -77,6 +77,11 @@ button {
   bottom: 50%;   
 }
 
+.bottomRow{
+  background-color: darkslategray;
+
+}
+
 .row {
   white-space: pre-wrap;
   height: 80px;
