@@ -112,4 +112,16 @@ button {
   left: 5%; 
 }
 
+ul {
+  padding: 0;
+  margin: 10px;
+}
+li {
+  float: left;
+  clear: both;
+  padding: 5px;
+  list-style-type: none;
+  margin: 10px;
+  border-radius: 5px;
+}
 
